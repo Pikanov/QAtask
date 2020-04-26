@@ -14,8 +14,7 @@ import static org.junit.Assert.assertTrue;
 public class GoogleSearchLinkInTopFive {
 
     @Test
-    public void firstTest() {
-
+    public void firstTest() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "/chromedriver.exe");
 
         ChromeDriver driver = new ChromeDriver();
@@ -36,14 +35,19 @@ public class GoogleSearchLinkInTopFive {
         for (int i = 0; i < 4; i++) {
             WebElement clickNextPage = driver.findElement(By.id("pnnext"));
             clickNextPage.click();
-
             List<WebElement> links = driver.findElements(By.tagName("a"));
-
             for (WebElement link : links) {
                 if (link.getText().contains("www.cnn.com")) {
                     desiredLinkInTopFive = true;
+                    link.getAttribute("href").contains("www.cnn.com");
+                    link.click();
+                    break;
                 }
             }
+            if (desiredLinkInTopFive) {
+                break;
+            }
+
         }
 
         assertTrue(desiredLinkInTopFive);
