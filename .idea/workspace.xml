@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fd7fdbc-e70e-4007-89d6-02f581d0ea04" name="Default Changelist" comment="">
+    <list default="true" id="7fd7fdbc-e70e-4007-89d6-02f581d0ea04" name="Default Changelist" comment="init">
       <change afterPath="$PROJECT_DIR$/../testProject" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../git_project/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../git_project/pom.xml" beforeDir="false" />
@@ -32,7 +32,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1b4zshfDRPTjXPWU0NwdmglCdJm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -86,6 +86,14 @@
       <option name="presentableId" value="Default" />
       <updated>1587906361976</updated>
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1587909462404</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587909462404</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,15 +107,19 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="395" y="91" key="#Inspections" timestamp="1587906869176">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1587906869176" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587908054145">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587909282173">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587908054145" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587909282173" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1587907995377">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
